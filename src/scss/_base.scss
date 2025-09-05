@@ -5,6 +5,11 @@
   --color-secondary: black;
   --color-text-main: #515050;
   --color-background: #bcbfc3;
+  --color-blue: #279ef8;
+  --color-yellow: #f8af27;
+  --color-green: #12965d;
+  --color-red: #f82727;
+  font-family: "Bubbler One";
 }
 
 a {
@@ -33,4 +38,9 @@ h2 {
 header,
 footer {
   background: var(--color-background);
+}
+
+button {
+  background: none;
+  border: none;
 }
