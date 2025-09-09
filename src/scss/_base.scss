@@ -3,13 +3,17 @@
   margin: 0;
   padding: 0;
   --color-secondary: black;
-  --color-text-main: #515050;
+  --color-text: #515050;
   --color-background: #bcbfc3;
   --color-blue: #279ef8;
   --color-yellow: #f8af27;
   --color-green: #12965d;
   --color-red: #f82727;
   font-family: "Bubbler One";
+}
+
+body {
+  color: var(--color-text);
 }
 
 a {
@@ -29,7 +33,6 @@ h1 {
 }
 
 h2 {
-  color: var(--color-text-main);
   font-family: "Caesar Dressing";
   font-size: 32px;
   font-weight: 400;
