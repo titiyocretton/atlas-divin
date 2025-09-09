@@ -53,7 +53,7 @@
     justify-content: space-between;
     align-items: flex-start;
     h3 {
-      background: white;
+      background: var(--color-background-main);
       padding: 8px 12px 8px 12px;
     }
     svg {
@@ -85,10 +85,23 @@
   .card-god-image path {
     fill: var(--color-yellow);
   }
+  .card-container svg {
+    path {
+      fill: yellow;
+    }
+  }
 }
 
 .card-god-grec {
   border: 2px solid var(--color-blue);
+  .card-god-image path {
+    fill: var(--color-blue);
+  }
+  .card-container svg {
+    path {
+      fill: var(--color-blue);
+    }
+  }
 }
 
 .card-god-nordique {
@@ -96,12 +109,22 @@
   .card-god-image path {
     fill: var(--color-green);
   }
+  .card-container svg {
+    path {
+      fill: var(--color-green);
+    }
+  }
 }
 
 .card-god-egyptien {
   border: 2px solid var(--color-yellow);
   .card-god-image path {
     fill: var(--color-yellow);
+  }
+  .card-container svg {
+    path {
+      fill: var(--color-yellow);
+    }
   }
 }
 

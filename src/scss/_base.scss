@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Bubbler One";
+}
+
+html {
   --color-secondary: black;
   --color-text: #515050;
   --color-background: #bcbfc3;
@@ -9,7 +13,18 @@
   --color-yellow: #f8af27;
   --color-green: #12965d;
   --color-red: #f82727;
-  font-family: "Bubbler One";
+  --color-background-main: #fff;
+}
+
+html[data-theme="dark"] {
+  --color-background: #696a6c;
+  --color-text: #f7f6f6;
+  --color-secondary: #ffffff;
+  --color-background-main: #515050;
+  --color-blue: #a3d7ff;
+  --color-yellow: #f7f43e;
+  --color-green: #76e5b5;
+  --color-red: #f8a7a7;
 }
 
 body {
@@ -50,6 +65,7 @@ button {
 
 main {
   padding: 20px 12px 8px 12px;
+  background: var(--color-background-main);
 }
 
 @media (min-width: 992px) {

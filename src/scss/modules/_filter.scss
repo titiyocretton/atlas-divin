@@ -12,8 +12,14 @@
 .filter-container {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: var(--color-background-main);
   gap: 20px;
+
+  svg {
+    path {
+      stroke: var(--color-background-main);
+    }
+  }
 
   a {
     padding: 8px 12px;

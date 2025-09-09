@@ -11,7 +11,7 @@
   position: fixed;
   width: 100%;
 
-  display: none;
+  // display: none;
 
   a {
     text-decoration: none;
@@ -23,4 +23,20 @@
   .burger-nav {
     display: none;
   }
+}
+
+html[data-theme="light"] #light-mode-btn {
+  display: none;
+}
+
+html[data-theme="dark"] #dark-mode-btn {
+  display: none;
+}
+
+html[data-theme="light"] #light-mode-btn-2 {
+  display: none;
+}
+
+html[data-theme="dark"] #dark-mode-btn-2 {
+  display: none;
 }
