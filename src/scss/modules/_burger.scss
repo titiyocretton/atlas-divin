@@ -17,3 +17,10 @@
     text-decoration: none;
   }
 }
+
+@media (min-width: 992px) {
+  .burger,
+  .burger-nav {
+    display: none;
+  }
+}

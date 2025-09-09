@@ -13,3 +13,16 @@ header {
 .header-space {
   height: 88px;
 }
+
+@media (min-width: 992px) {
+  .header-nav-lg {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--color-secondary);
+    font-size: 20px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
