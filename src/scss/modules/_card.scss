@@ -82,6 +82,9 @@
 
 .card-god-romain {
   border: 2px solid var(--color-red);
+  .card-god-image path {
+    fill: var(--color-yellow);
+  }
 }
 
 .card-god-grec {
@@ -90,10 +93,115 @@
 
 .card-god-nordique {
   border: 2px solid var(--color-green);
+  .card-god-image path {
+    fill: var(--color-green);
+  }
 }
 
 .card-god-egyptien {
   border: 2px solid var(--color-yellow);
+  .card-god-image path {
+    fill: var(--color-yellow);
+  }
 }
 
 // comment je peux séléctionné un par un les card avec ntn child pour l'image ?
+
+#athena {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/athena.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#mars {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/mars.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#ra {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/ra.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#freya {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/freya.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#loki {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/loki.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#fortuna {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/fortuna.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#artemis {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/artemis.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#anubis {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/anubis.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#zeus {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/zeus.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#lucifer {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/lucifer.png?as=webp");
+    background-position: center;
+    background-size: cover;
+    path {
+      fill: var(--color-red);
+    }
+  }
+}
+
+#hel {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/hel.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#isis {
+  .card-god-image {
+    background-image: url("../img/Dieux-deesse/isis.png?as=webp");
+    background-position: center;
+    background-size: cover;
+  }
+}
