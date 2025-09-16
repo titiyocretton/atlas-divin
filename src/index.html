@@ -199,120 +199,126 @@
       </nav>
     </header>
     <div class="header-space"></div>
-    <nav class="burger-nav">
-      <a href="">Mes favoris</a>
-      <a href="">Dieu du jour</a>
-      <a href="">Dieux populaires</a>
-      <button type="button" id="dark-mode-btn-2" class="header-dark-mode-btn">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_2005_1536)">
-            <path
-              d="M12 3C12.132 3 12.263 3 12.393 3C11.1084 4.19371 10.2826 5.79985 10.0593 7.53923C9.83602 9.2786 10.2293 11.0412 11.1708 12.5207C12.1122 14.0002 13.5424 15.103 15.2126 15.6375C16.8829 16.1719 18.6876 16.1042 20.313 15.446C19.6878 16.9505 18.6658 18.257 17.3562 19.2263C16.0466 20.1955 14.4985 20.791 12.8769 20.9494C11.2554 21.1077 9.62129 20.823 8.14892 20.1254C6.67654 19.4279 5.42114 18.3437 4.51661 16.9886C3.61209 15.6335 3.09238 14.0583 3.01291 12.431C2.93345 10.8037 3.29721 9.1853 4.0654 7.74852C4.83359 6.31174 5.97739 5.11043 7.37479 4.27274C8.77219 3.43505 10.3708 2.9924 12 2.992V3Z"
-              stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2005_1536">
-              <rect width="24" height="24" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-      </button>
-      <button type="button" id="light-mode-btn-2" class="header-light-mode-btn">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="25"
-          viewBox="0 0 24 25"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_2014_491)">
-            <path
-              d="M14.828 15.3281C15.2101 14.9591 15.5148 14.5177 15.7244 14.0297C15.9341 13.5417 16.0444 13.0168 16.049 12.4857C16.0537 11.9546 15.9525 11.4278 15.7513 10.9363C15.5502 10.4447 15.2532 9.99807 14.8776 9.6225C14.5021 9.24693 14.0554 8.94992 13.5639 8.74879C13.0723 8.54767 12.5456 8.44646 12.0144 8.45108C11.4833 8.45569 10.9584 8.56604 10.4704 8.77568C9.98241 8.98531 9.54103 9.29004 9.17204 9.67208C8.44341 10.4265 8.04023 11.4369 8.04935 12.4857C8.05846 13.5345 8.47914 14.5377 9.22077 15.2794C9.9624 16.021 10.9656 16.4417 12.0144 16.4508C13.0632 16.4599 14.0736 16.0567 14.828 15.3281V15.3281Z"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M6.34296 18.157L4.92896 19.571"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M6.34296 6.84296L4.92896 5.42896"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M17.657 6.84296L19.071 5.42896"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M17.657 18.157L19.071 19.571"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M4 12.5H2"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M12 4.5V2.5"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M20 12.5H22"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M12 20.5V22.5"
-              stroke="#696A6C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2014_491">
-              <rect
-                width="24"
-                height="24"
-                fill="white"
-                transform="translate(0 0.5)"
+    <div class="burger-nav-container">
+      <nav class="burger-nav hidden">
+        <a href="">Mes favoris</a>
+        <a href="">Dieu du jour</a>
+        <a href="">Dieux populaires</a>
+        <button type="button" id="dark-mode-btn-2" class="header-dark-mode-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_2005_1536)">
+              <path
+                d="M12 3C12.132 3 12.263 3 12.393 3C11.1084 4.19371 10.2826 5.79985 10.0593 7.53923C9.83602 9.2786 10.2293 11.0412 11.1708 12.5207C12.1122 14.0002 13.5424 15.103 15.2126 15.6375C16.8829 16.1719 18.6876 16.1042 20.313 15.446C19.6878 16.9505 18.6658 18.257 17.3562 19.2263C16.0466 20.1955 14.4985 20.791 12.8769 20.9494C11.2554 21.1077 9.62129 20.823 8.14892 20.1254C6.67654 19.4279 5.42114 18.3437 4.51661 16.9886C3.61209 15.6335 3.09238 14.0583 3.01291 12.431C2.93345 10.8037 3.29721 9.1853 4.0654 7.74852C4.83359 6.31174 5.97739 5.11043 7.37479 4.27274C8.77219 3.43505 10.3708 2.9924 12 2.992V3Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               />
-            </clipPath>
-          </defs>
-        </svg>
-      </button>
-    </nav>
+            </g>
+            <defs>
+              <clipPath id="clip0_2005_1536">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        <button
+          type="button"
+          id="light-mode-btn-2"
+          class="header-light-mode-btn"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_2014_491)">
+              <path
+                d="M14.828 15.3281C15.2101 14.9591 15.5148 14.5177 15.7244 14.0297C15.9341 13.5417 16.0444 13.0168 16.049 12.4857C16.0537 11.9546 15.9525 11.4278 15.7513 10.9363C15.5502 10.4447 15.2532 9.99807 14.8776 9.6225C14.5021 9.24693 14.0554 8.94992 13.5639 8.74879C13.0723 8.54767 12.5456 8.44646 12.0144 8.45108C11.4833 8.45569 10.9584 8.56604 10.4704 8.77568C9.98241 8.98531 9.54103 9.29004 9.17204 9.67208C8.44341 10.4265 8.04023 11.4369 8.04935 12.4857C8.05846 13.5345 8.47914 14.5377 9.22077 15.2794C9.9624 16.021 10.9656 16.4417 12.0144 16.4508C13.0632 16.4599 14.0736 16.0567 14.828 15.3281V15.3281Z"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6.34296 18.157L4.92896 19.571"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6.34296 6.84296L4.92896 5.42896"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.657 6.84296L19.071 5.42896"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.657 18.157L19.071 19.571"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M4 12.5H2"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 4.5V2.5"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M20 12.5H22"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 20.5V22.5"
+                stroke="#696A6C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_2014_491">
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0 0.5)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </nav>
+    </div>
     <main>
       <div class="container">
         <div class="row">

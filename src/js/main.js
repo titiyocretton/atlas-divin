@@ -1,3 +1,5 @@
+import { gsap } from "gsap";
+
 const toggleDarkModeBtn2 = document.querySelector("#dark-mode-btn-2");
 const toggleLightModeBtn2 = document.querySelector("#light-mode-btn-2");
 // On commence par créer deux variables JavaScript,
@@ -22,4 +24,11 @@ toggleLightModeBtn.addEventListener("click", function () {
   // Lors du clic sur le bouton "Light mode", nous voulons que
   // l'attribut data-theme de la balise <html> prenne pour valeur "light"
   document.querySelector("html").setAttribute("data-theme", "light");
+});
+
+const burgerButton = document.querySelector(".burger");
+const burgerPopUp = document.querySelector(".burger-nav-container");
+
+burgerButton.addEventListener("click", function () {
+  burgerPopUp.classList.toggle("hidden");
 });
