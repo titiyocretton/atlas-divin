@@ -82,50 +82,18 @@
 
 .card-god-romain {
   border: 2px solid var(--color-red);
-  .card-god-image path {
-    fill: var(--color-yellow);
-  }
-  .card-container svg {
-    path {
-      fill: yellow;
-    }
-  }
 }
 
 .card-god-grec {
   border: 2px solid var(--color-blue);
-  .card-god-image path {
-    fill: var(--color-blue);
-  }
-  .card-container svg {
-    path {
-      fill: var(--color-blue);
-    }
-  }
 }
 
 .card-god-nordique {
   border: 2px solid var(--color-green);
-  .card-god-image path {
-    fill: var(--color-green);
-  }
-  .card-container svg {
-    path {
-      fill: var(--color-green);
-    }
-  }
 }
 
 .card-god-egyptien {
   border: 2px solid var(--color-yellow);
-  .card-god-image path {
-    fill: var(--color-yellow);
-  }
-  .card-container svg {
-    path {
-      fill: var(--color-yellow);
-    }
-  }
 }
 
 // comment je peux séléctionné un par un les card avec ntn child pour l'image ?
@@ -207,9 +175,6 @@
     background-image: url("../img/Dieux-deesse/lucifer.png?as=webp");
     background-position: center;
     background-size: cover;
-    path {
-      fill: var(--color-red);
-    }
   }
 }
 
