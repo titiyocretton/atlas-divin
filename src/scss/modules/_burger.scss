@@ -3,15 +3,24 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px 12px;
-  gap: 16px;
+  padding: 12px 12px 20px 12px;
   border-top: black solid 1px;
   font-size: 20px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
+  button {
+    margin-top: 8px;
+  }
+
   a {
     text-decoration: none;
     width: 100%;
+    padding: 8px 0;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    padding-left: 12px;
   }
 }
 
