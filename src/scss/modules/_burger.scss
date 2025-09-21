@@ -57,3 +57,19 @@ html[data-theme="light"] #light-mode-btn-2 {
 html[data-theme="dark"] #dark-mode-btn-2 {
   display: none;
 }
+
+.burger:hover {
+  svg {
+    path {
+      stroke: var(--color-background-main);
+    }
+  }
+}
+
+.burger {
+  svg {
+    path {
+      transition: 0.3s;
+    }
+  }
+}

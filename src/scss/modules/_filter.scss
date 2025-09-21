@@ -2,6 +2,9 @@
   margin-top: 32px;
   position: sticky;
   top: 120px;
+  a {
+    transition: 0.3s;
+  }
   h3 {
     font-family: "Bubbler One";
     font-size: 24px;
@@ -38,4 +41,9 @@
   a:nth-child(4) {
     background: var(--color-red);
   }
+}
+
+.filter a:hover {
+  background: var(--color-secondary);
+  padding-right: 5px;
 }

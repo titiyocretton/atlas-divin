@@ -30,5 +30,28 @@ footer {
     nav {
       flex-direction: row;
     }
+    a:hover {
+      color: var(--color-background-main);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  footer {
+    a:hover {
+      padding-left: 16px;
+    }
+  }
+}
+
+footer {
+  path,
+  a {
+    transition: 0.3s;
+  }
+  svg:hover {
+    path {
+      fill: var(--color-background-main);
+    }
   }
 }

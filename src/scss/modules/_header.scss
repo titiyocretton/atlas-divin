@@ -64,6 +64,10 @@ header {
     font-size: 20px;
     a {
       text-decoration: none;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: var(--color-background-main);
     }
   }
 }
